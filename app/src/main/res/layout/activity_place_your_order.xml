@@ -168,7 +168,7 @@
             android:layout_marginBottom="05dp"
             android:hint="Enter Card pin(3 digits)"
             android:inputType="number"
-            android:maxLength="3"/>
+            android:maxLength="3"/> */
 
         <TextView android:id="@+id/tvTotalItems"
             android:layout_width="wrap_content"
@@ -206,7 +206,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cartItemsRecyclerView"
             android:layout_margin="10dp"
-            android:text="$0.0"
+            android:text="RS.0.0"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
@@ -226,7 +226,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvSubtotal"
             android:layout_margin="10dp"
-            android:text="$0.0"
+            android:text="RS.0.0"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
@@ -246,7 +246,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDeliveryCharge"
             android:layout_margin="10dp"
-            android:text="$0.0"
+            android:text="RS.0.0"
             android:textSize="18sp"
             android:textStyle="bold"/>
 

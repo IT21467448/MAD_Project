@@ -45,8 +45,8 @@ class RestaurantListAdapter(val restaurantList: List<RestaurentModel?>?, val cli
 
         fun bind(restaurentModel: RestaurentModel?) {
             tvRestaurantName.text = restaurentModel?.name
-            tvRestaurantAddress.text = "Address: "+restaurentModel?.address
-            tvRestaurantHours.text = "Today's Hours: " + getTodaysHours(restaurentModel?.hours!!)
+            tvRestaurantAddress.text = "Ratings: "+restaurentModel?.address
+            tvRestaurantHours.text = "Delivery Hours: " + getTodaysHours(restaurentModel?.hours!!)
 
             Glide.with(thumbImage)
                 .load(restaurentModel?.image)
